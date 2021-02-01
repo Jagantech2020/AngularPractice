@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'signup app';
 
-  callAlert(){
+  callAlert(val: number){
     alert(this.title);
   }
 }
